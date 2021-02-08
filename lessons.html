@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -14,67 +14,67 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-
     <title>Info School</title>
   </head>
+
   <body>
-    <!-- HEADER -->
-    <div class="container">
-      <div class="row">
-        <nav class="col navbar navbar-expand-lg bg-dark navbar-dark">
-          <a class="navbar-brand" href="index.html">
-            <img
-              src="ressources/logo.png"
-              alt="Une souris d'ordinateur"
-              width="50"
-              height="50"
-            />
-            Info School</a
-          >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div id="navbarContent" class="collapse navbar-collapse">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a href="index.html" class="nav-link">Accueil</a>
-              </li>
-              <li class="nav-item">
-                <a href="lessons.html" class="nav-link">Cours</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+    <!-- <div class="bg-dark"> -->
+      <div class="container">
+        <div class="row">
+          <nav class="col navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">
+              <img
+                src="ressources/logo.png"
+                width="50"
+                height="50"
+                alt="Info Logo"
+              />
+              Info School
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarContent" class="collapse navbar-collapse">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="lessons.html">Cours</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
       </div>
     </div>
     <div class="container">
       <div class="row">
         <div class="col">
-          <div class="jumbotron">
-            <h1>Bienvenue sur Info School</h1>
-          </div>
+          <h1>Cours</h1>
         </div>
       </div>
       <div class="row">
         <div class="col-12 col-lg-4">
           <div class="card">
             <img
-              src="ressources/certificate.png"
-              alt="certificate"
+              src="ressources/css.jpeg"
+              alt="Animations CSS modernes"
               class="card-img-top"
             />
             <div class="card-body">
-              <h5 class="card-title">Devenez diplômé</h5>
+              <h5 class="card-title">Créez des animations CSS</h5>
               <p class="card-text">
-                De zéro à héros, obtenez un diplôme en informatique.
+                Vous allez plonger dans le monde des animations CSS pour donner
+                vie à vos pages web ! <a  href="lessons-1.html">Lessons-1</a>
               </p>
             </div>
           </div>
@@ -82,47 +82,55 @@
         <div class="col-12 col-lg-4">
           <div class="card">
             <img
-              src="ressources/instruction.png"
-              alt="instruction"
+              src="ressources/js.jpeg"
+              alt="Programmation JavaScript"
               class="card-img-top"
             />
             <div class="card-body">
-              <h5 class="card-title">Formateurs de qualités</h5>
+              <h5 class="card-title">Programmer avec JavaScript</h5>
               <p class="card-text">
-                Tous nos cours sont réalisés par les meilleurs informaticiens.
+                Ce cours est conçu pour vous enseigner les bases du langage de
+                programmation JavaScript.
               </p>
             </div>
           </div>
         </div>
         <div class="col-12 col-lg-4">
           <div class="card">
-            <img src="ressources/job.png" alt="job" class="card-img-top" />
+            <img
+              src="ressources/swift.jpeg"
+              alt="Programmation Swift"
+              class="card-img-top"
+            />
             <div class="card-body">
-              <h5 class="card-title">Un travail garanti</h5>
+              <h5 class="card-title">Les fondamentaux de Swift</h5>
               <p class="card-text">
-                Nous vous garantissons un emploi à l'issue de votre formation.
+                Découvrez le développement iOS et réalisez des applications
+                taillées pour l'iPhone et l'iPad !
               </p>
             </div>
           </div>
         </div>
       </div>
-      <!-- FOOTER -->
-      <div class="container bg-light">
+    </div>
+    <div class="bg-light">
+      <div class="container">
         <div class="row">
           <div class="col">
             <ul class="list-inline text-center">
-              <li class="list-inline-item"><a href="#"> A propos</a></li>
+              <li class="list-inline-item"><a href="#">À propos</a></li>
               <li class="list-inline-item">&middot;</li>
               <li class="list-inline-item"><a href="#">Vie privée</a></li>
               <li class="list-inline-item">&middot;</li>
               <li class="list-inline-item">
-                <a href="#">Conditions d'utilisation</a>
+                <a href="#">Conditions d'utilisations</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
     </div>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
